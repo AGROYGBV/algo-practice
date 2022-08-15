@@ -7,17 +7,17 @@
 // console.log("Below 10: ", below10)
 // console.log("Below 20: ", below20)
 
-// function multiples_of_3_or_5(range) {
-//     //accumulator variable
-//     let sum = 0;
-//     for(let i=1; i<range; i++){
-//         //modulo operator returns 0 for multiples
-//         if(i%3==0 || i%5==0){
-//             sum += i;
-//         } 
-//     }
-//     return sum;
-// }
+function multiples_of_3_or_5(range) {
+    //accumulator variable
+    let sum = 0;
+    for(let i=1; i<range; i++){
+        //modulo operator returns 0 for multiples
+        if(i%3==0 || i%5==0){
+            sum += i;
+        } 
+    }
+    return sum;
+}
 
 // function multiples_of_3_or_5(range) {
 //     //accumulator variable
